@@ -1,0 +1,116 @@
+body{
+    background-color: #EEE;
+}
+
+#header {
+    /* background: url("images/top.jpg") no-repeat center center fixed; */
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+}
+
+.light {
+    color: #FFF;
+}
+
+.light-title {
+    text-align: center;
+}
+
+.light-up {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.light-content {
+    font-size: .8em;
+}
+
+.btn-outline-poison {
+    color: rebeccapurple !important;
+    border-color: rebeccapurple;
+}
+
+.btn-outline-poison:hover {
+    background-color: rebeccapurple;
+    border-color: rebeccapurple;
+}
+.btn-outline-info {
+    color: darkblue !important;
+    border-color: darkblue;
+}
+.btn-outline-info:hover {
+    color: #FFF !important;
+    background-color: darkblue;
+    border-color: darkblue;
+}
+.btn-outline-success{
+    color: #729F3F !important;
+    border-color: #729F3F;
+}
+.btn-outline-success:hover {
+    color: #FFF !important;
+    background-color: #729F3F;
+    border-color: #729F3F;
+}
+.badge {
+    margin-right: 4px;
+    font-size: 60%;
+    padding: .1em .3em;
+}
+.badge-primary {
+ background-color: #062c33;
+}
+.card {
+    min-height: 600px;
+    margin-top: 30px;
+    background-color: #FFF;
+}
+.card-text {
+    height: 120px;
+    font-size: 0.8rem;
+}
+#header img {
+    margin: 0 auto;
+    display: block;
+}
+.layout {
+    padding: 10px 0;
+    background: linear-gradient(#FF0000, #910808);
+}
+#warning {
+    background-color: yellow;
+    color: #000;
+    padding: 30px;
+    margin-top: 20px;
+}
+#warning p {
+    position: relative;
+    font-size: 3em;
+}
+
+.border-right {
+    min-height: 180px;
+    border-right: 10px solid #FFFFFF !important;
+}
+
+footer {
+    min-height: 200px;
+    margin-top: 30px;
+    border-top: 4px solid #000;
+}
+
+.mar-top {
+    margin-top: 25px;
+}
+
+.semi-light {
+    color: #555;
+}
+
+.red{
+    background-color: red !important;
+}
